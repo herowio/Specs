@@ -4,8 +4,12 @@ Pod::Spec.new do |s|
      s.summary     = "herow_sdk_ios: an assets of classes and interfaces "
     s.homepage     = "http://www.herow.io/"
     s.module_name  = 'Herow'
-    s.license = { :type => 'LGPL'
-                }
+   s.license      = {
+        :type => 'Copyright',
+        :text => <<-LICENSE
+    Copyright 2015-2016 Connecthings, Inc. All rights reserved.
+    LICENSE
+}
     s.author             = { "herow" => "contact@herow.io" }
    s.source       = {
         :http => "https://github.com/herowio/test/blob/main/7.0.0/herow_sdk_ios.framework.zip?raw=true",
