@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 }
     s.author             = { "herow" => "contact@herow.io" }
    s.source       = {
-        :http => "https://github.com/herowio/test/blob/main/7.0.0/herow_sdk_ios.framework.zip?raw=true",
+        :http => "https://github.com/herowio/herow-sdk-ios/releases/download/7.0.0/herow_sdk_ios.framework.zip",
         :type => "zip"
     }
     s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration'
