@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
    s.license      = {
         :type => 'Copyright',
         :text => <<-LICENSE
-    Copyright 2015-2016 Connecthings, Inc. All rights reserved.
+    Copyright 2020-2021 Herow, Inc. All rights reserved.
     LICENSE
 }
     s.author             = { "herow" => "contact@herow.io" }
